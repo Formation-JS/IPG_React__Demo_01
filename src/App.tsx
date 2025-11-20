@@ -8,6 +8,7 @@ import DemoState from './components/DemoState/DemoState';
 import RegistrationForm1 from './components/RegistrationForm/RegistrationForm_Control';
 import RegistrationForm2 from './components/RegistrationForm/RegistrationForm_Action';
 import RegistrationForm3 from './components/RegistrationForm/RegistrationForm_ActionState';
+import Counter from './features/Counter/Counter';
 
 
 const people : PersonData[] = [
@@ -35,6 +36,8 @@ function App() {
       <RegistrationForm2 />
       <h2>Formulaire avec action et state</h2>
       <RegistrationForm3 />
+
+      <Counter />
     </>
   );
 }

@@ -3,3 +3,4 @@
 - Collection
 - State
 - Formulaire
+- Communication
